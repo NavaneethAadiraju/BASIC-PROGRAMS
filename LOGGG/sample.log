@@ -1,0 +1,3 @@
+1    {main} WARN  com.exa.Helloworld  - Sample warn message
+2    {main} ERROR com.exa.Helloworld  - Sample error message
+2    {main} FATAL com.exa.Helloworld  - Sample fatal message
