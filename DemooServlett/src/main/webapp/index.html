@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script>
+function fun1(){
+    alert ("enterted into java script");
+    document.form.action="JavaScriptServlet";
+    document.form.submit();
+}
+</script>
+</head>
+<body>
+<form name = "form">
+<p>
+select state :<select name ="s1" onChange ="fun1()">
+<option value ="">validate</option>
+<option value ="Telangana">Telangana</option>
+<option value ="AndhraPradesh">Andhrapradesh</option>
+<option value ="Chennai">chennai</option>
+</select>
+</p>
+</form>
+</body>
+</html>
